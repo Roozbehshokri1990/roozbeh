@@ -1,0 +1,97 @@
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<DOCTYPE HTML>
+  <html>
+<Header>
+<h1 id="title"> Tesla compony </h1>
+<link rel="stylesheet" href="styles.css">
+</Header>
+
+<body>
+<p id="description"> fill details below to complete your Auto order</p>
+
+<form id="survey-form">
+  
+  <div class="input-headings">
+  
+  <label for="name" id="name-label">Name </label>
+  <input id="name" type="text" name="name" placeholder="Full name" class="form-input"required> </input><br><br>
+
+<label for="email" id="email-label">Email </label>
+<input id="email" type="email" name="imail" placeholder="Exampel@email.com" class="form-input"required>
+  </input>
+<br>
+  <br>
+<label for="number" id="number-label">Age </label>
+<input id="number" type="number" name="number" placeholder="18" min="18" max="99" class="form-input"required></input><br><br>
+  
+
+<label for="dropdown" id="model">select model</label>
+<select id="dropdown"class="form-input"> 
+  <option value="Model_a"> Model a </option>
+  <option value="Model_b"> Model b </option>
+  <option value="Model_c"> Model c </option>
+  <option value="Model_d"> Model d </option>
+  <option value="cyber_Truck"> cyber Truck </option>
+</select>
+<br>
+<br>
+
+<label for="model_color" id="model_color"> <b> Model color : </b> </label><br>
+<input class="model-color" type="radio" id="black" name="color" value="black">
+<label for="model_color"> black </label>
+<br>
+
+<input class="model-color" type="radio" id="black" name="color" value="black">
+<label for="model_color"> Red </label>
+<br>
+
+<input class="model-color" type="radio" id="black" name="color" value="black">
+<label for="model_color"> white </label>
+<br>
+
+<input class="model-color" type="radio" id="black" name="color" value="black">
+<label for="model_color"> green </label>
+<br>
+<br>
+
+<label for="features" id="checkbox-label"> <b> Add features: </b> </label>
+<br>
+
+
+<input id="checkbox" type="checkbox" name="features" value="autopilot">
+<label for="checkbox"> Full self_driving (autopilot) - $ 29,000 </label>
+<br>
+
+
+<input id="checkbox" type="checkbox" name="features" value="dual_motor">
+<label for="checkbox"> dual_motor (All wheel drive) - $ 18,000 </label>
+<br>
+
+
+<input id="checkbox" type="checkbox" name="features" value="battery">
+<label for="checkbox"> Performance plus (Enhanced battery) - $ 22,000 </label>
+<br>
+<br>
+<br>
+<hr>
+<label id="textarea"> Additional Comments </label>
+<br>
+<textarea id="text-area" name="instructions" rows="5" cols="40">
+</textarea>
+<br>
+
+<input id="submit" type="submit" value="place order" class="submit-button">
+
+  </div>
+</form>
+ 
+</body>
+</html>
